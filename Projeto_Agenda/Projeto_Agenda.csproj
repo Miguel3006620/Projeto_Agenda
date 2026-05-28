@@ -46,10 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dados\DataSet_Agenda.Designer.cs">
+    <Compile Include="Dados\DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet_Agenda.xsd</DependentUpon>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Consultar.cs">
       <SubType>Form</SubType>
@@ -95,17 +95,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Dados\DataSet_Agenda.xsc">
-      <DependentUpon>DataSet_Agenda.xsd</DependentUpon>
+    <None Include="Dados\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
-    <None Include="Dados\DataSet_Agenda.xsd">
+    <None Include="Dados\DataSet1.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet_Agenda.Designer.cs</LastGenOutput>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Dados\DataSet_Agenda.xss">
-      <DependentUpon>DataSet_Agenda.xsd</DependentUpon>
+    <None Include="Dados\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
+    <None Include="Properties\DataSources\Projeto_Agenda.Formularios.Consultar.datasource" />
+    <None Include="Properties\DataSources\Projeto_Agenda.Formularios.FormCadPessoas.datasource" />
+    <None Include="Properties\DataSources\Projeto_Agenda.Formularios.menu.datasource" />
+    <None Include="Properties\DataSources\Projeto_Agenda.Formularios.Relatorios.datasource" />
+    <None Include="Properties\DataSources\Projeto_Agenda.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\Projeto_Agenda.Properties.Settings.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -121,6 +127,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="relatorios\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

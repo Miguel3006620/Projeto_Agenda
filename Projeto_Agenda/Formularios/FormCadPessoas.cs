@@ -31,5 +31,20 @@ namespace Projeto_Agenda.Formularios
             this.pessoaTableAdapter.Fill(this.dataSet_Agenda.pessoa);
 
         }
+
+        private void pessoaBindingSource1BindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.pessoaBindingSource1.EndEdit();
+            this.tableAdapterManager1.UpdateAll(this.dataSet1);
+
+        }
+
+        private void FormCadPessoas_Load_1(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'dataSet1.pessoa'. Você pode movê-la ou removê-la conforme necessário.
+            this.pessoaTableAdapter1.Fill(this.dataSet1.pessoa);
+
+        }
     }
 }

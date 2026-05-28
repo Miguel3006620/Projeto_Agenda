@@ -36,30 +36,30 @@
             System.Windows.Forms.Label cidadeLabel;
             System.Windows.Forms.Label emailLabel;
             System.Windows.Forms.Label dataNascLabel;
-            this.dataSet_Agenda = new Projeto_Agenda.Dados.DataSet_Agenda();
-            this.pessoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pessoaTableAdapter = new Projeto_Agenda.Dados.DataSet_AgendaTableAdapters.pessoaTableAdapter();
-            this.tableAdapterManager = new Projeto_Agenda.Dados.DataSet_AgendaTableAdapters.TableAdapterManager();
-            this.pessoaBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.pessoaBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.idTextBox = new System.Windows.Forms.TextBox();
-            this.nomeTextBox = new System.Windows.Forms.TextBox();
-            this.enderecoTextBox = new System.Windows.Forms.TextBox();
-            this.cidadeTextBox = new System.Windows.Forms.TextBox();
-            this.emailTextBox = new System.Windows.Forms.TextBox();
-            this.dataNascDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.pessoaDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataSet1 = new Projeto_Agenda.Dados.DataSet1();
+            this.pessoaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.pessoaTableAdapter1 = new Projeto_Agenda.Dados.DataSet1TableAdapters.pessoaTableAdapter();
+            this.tableAdapterManager1 = new Projeto_Agenda.Dados.DataSet1TableAdapters.TableAdapterManager();
+            this.pessoaBindingSource1BindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
+            this.pessoaBindingSource1BindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.idTextBox1 = new System.Windows.Forms.TextBox();
+            this.nomeTextBox1 = new System.Windows.Forms.TextBox();
+            this.enderecoTextBox1 = new System.Windows.Forms.TextBox();
+            this.cidadeTextBox1 = new System.Windows.Forms.TextBox();
+            this.emailTextBox1 = new System.Windows.Forms.TextBox();
+            this.dataNascDateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.pessoaDataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -72,291 +72,287 @@
             cidadeLabel = new System.Windows.Forms.Label();
             emailLabel = new System.Windows.Forms.Label();
             dataNascLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSet_Agenda)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingNavigator)).BeginInit();
-            this.pessoaBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pessoaDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingSource1BindingNavigator)).BeginInit();
+            this.pessoaBindingSource1BindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pessoaDataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataSet_Agenda
+            // dataSet1
             // 
-            this.dataSet_Agenda.DataSetName = "DataSet_Agenda";
-            this.dataSet_Agenda.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.dataSet1.DataSetName = "DataSet1";
+            this.dataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // pessoaBindingSource
+            // pessoaBindingSource1
             // 
-            this.pessoaBindingSource.DataMember = "pessoa";
-            this.pessoaBindingSource.DataSource = this.dataSet_Agenda;
+            this.pessoaBindingSource1.DataMember = "pessoa";
+            this.pessoaBindingSource1.DataSource = this.dataSet1;
             // 
-            // pessoaTableAdapter
+            // pessoaTableAdapter1
             // 
-            this.pessoaTableAdapter.ClearBeforeFill = true;
+            this.pessoaTableAdapter1.ClearBeforeFill = true;
             // 
-            // tableAdapterManager
+            // tableAdapterManager1
             // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.pessoaTableAdapter = this.pessoaTableAdapter;
-            this.tableAdapterManager.UpdateOrder = Projeto_Agenda.Dados.DataSet_AgendaTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager1.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager1.pessoaTableAdapter = this.pessoaTableAdapter1;
+            this.tableAdapterManager1.UpdateOrder = Projeto_Agenda.Dados.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // pessoaBindingNavigator
+            // pessoaBindingSource1BindingNavigator
             // 
-            this.pessoaBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.pessoaBindingNavigator.BindingSource = this.pessoaBindingSource;
-            this.pessoaBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.pessoaBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.pessoaBindingNavigator.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.pessoaBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bindingNavigatorMoveFirstItem,
-            this.bindingNavigatorMovePreviousItem,
-            this.bindingNavigatorSeparator,
-            this.bindingNavigatorPositionItem,
-            this.bindingNavigatorCountItem,
-            this.bindingNavigatorSeparator1,
-            this.bindingNavigatorMoveNextItem,
-            this.bindingNavigatorMoveLastItem,
-            this.bindingNavigatorSeparator2,
-            this.bindingNavigatorAddNewItem,
-            this.bindingNavigatorDeleteItem,
-            this.pessoaBindingNavigatorSaveItem});
-            this.pessoaBindingNavigator.Location = new System.Drawing.Point(0, 0);
-            this.pessoaBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.pessoaBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.pessoaBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.pessoaBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.pessoaBindingNavigator.Name = "pessoaBindingNavigator";
-            this.pessoaBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.pessoaBindingNavigator.Size = new System.Drawing.Size(999, 38);
-            this.pessoaBindingNavigator.TabIndex = 0;
-            this.pessoaBindingNavigator.Text = "bindingNavigator1";
+            this.pessoaBindingSource1BindingNavigator.AddNewItem = this.toolStripButton5;
+            this.pessoaBindingSource1BindingNavigator.BindingSource = this.pessoaBindingSource1;
+            this.pessoaBindingSource1BindingNavigator.CountItem = this.toolStripLabel1;
+            this.pessoaBindingSource1BindingNavigator.DeleteItem = this.toolStripButton6;
+            this.pessoaBindingSource1BindingNavigator.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.pessoaBindingSource1BindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton1,
+            this.toolStripButton2,
+            this.toolStripSeparator1,
+            this.toolStripTextBox1,
+            this.toolStripLabel1,
+            this.toolStripSeparator2,
+            this.toolStripButton3,
+            this.toolStripButton4,
+            this.toolStripSeparator3,
+            this.toolStripButton5,
+            this.toolStripButton6,
+            this.pessoaBindingSource1BindingNavigatorSaveItem});
+            this.pessoaBindingSource1BindingNavigator.Location = new System.Drawing.Point(0, 0);
+            this.pessoaBindingSource1BindingNavigator.MoveFirstItem = this.toolStripButton1;
+            this.pessoaBindingSource1BindingNavigator.MoveLastItem = this.toolStripButton4;
+            this.pessoaBindingSource1BindingNavigator.MoveNextItem = this.toolStripButton3;
+            this.pessoaBindingSource1BindingNavigator.MovePreviousItem = this.toolStripButton2;
+            this.pessoaBindingSource1BindingNavigator.Name = "pessoaBindingSource1BindingNavigator";
+            this.pessoaBindingSource1BindingNavigator.PositionItem = this.toolStripTextBox1;
+            this.pessoaBindingSource1BindingNavigator.Size = new System.Drawing.Size(828, 33);
+            this.pessoaBindingSource1BindingNavigator.TabIndex = 0;
+            this.pessoaBindingSource1BindingNavigator.Text = "bindingNavigator1";
             // 
-            // bindingNavigatorMoveFirstItem
+            // toolStripButton1
             // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 20);
-            this.bindingNavigatorMoveFirstItem.Text = "Mover primeiro";
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.Name = "bindingNavigatorMoveFirstItem";
+            this.toolStripButton1.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton1.Size = new System.Drawing.Size(34, 20);
+            this.toolStripButton1.Text = "Mover primeiro";
             // 
-            // bindingNavigatorMovePreviousItem
+            // toolStripButton2
             // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 20);
-            this.bindingNavigatorMovePreviousItem.Text = "Mover anterior";
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
+            this.toolStripButton2.Name = "bindingNavigatorMovePreviousItem";
+            this.toolStripButton2.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton2.Size = new System.Drawing.Size(34, 20);
+            this.toolStripButton2.Text = "Mover anterior";
             // 
-            // bindingNavigatorSeparator
+            // toolStripSeparator1
             // 
-            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator1.Name = "bindingNavigatorSeparator";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
-            // bindingNavigatorPositionItem
+            // toolStripTextBox1
             // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Posição";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 31);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Posição atual";
+            this.toolStripTextBox1.AccessibleName = "Posição";
+            this.toolStripTextBox1.AutoSize = false;
+            this.toolStripTextBox1.Name = "bindingNavigatorPositionItem";
+            this.toolStripTextBox1.Size = new System.Drawing.Size(50, 31);
+            this.toolStripTextBox1.Text = "0";
+            this.toolStripTextBox1.ToolTipText = "Posição atual";
             // 
-            // bindingNavigatorCountItem
+            // toolStripLabel1
             // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(57, 25);
-            this.bindingNavigatorCountItem.Text = "de {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Número total de itens";
+            this.toolStripLabel1.Name = "bindingNavigatorCountItem";
+            this.toolStripLabel1.Size = new System.Drawing.Size(57, 25);
+            this.toolStripLabel1.Text = "de {0}";
+            this.toolStripLabel1.ToolTipText = "Número total de itens";
             // 
-            // bindingNavigatorSeparator1
+            // toolStripSeparator2
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 6);
+            this.toolStripSeparator2.Name = "bindingNavigatorSeparator";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 6);
             // 
-            // bindingNavigatorMoveNextItem
+            // toolStripButton3
             // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 28);
-            this.bindingNavigatorMoveNextItem.Text = "Mover próximo";
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.Name = "bindingNavigatorMoveNextItem";
+            this.toolStripButton3.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton3.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton3.Text = "Mover próximo";
             // 
-            // bindingNavigatorMoveLastItem
+            // toolStripButton4
             // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 28);
-            this.bindingNavigatorMoveLastItem.Text = "Mover último";
+            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
+            this.toolStripButton4.Name = "bindingNavigatorMoveLastItem";
+            this.toolStripButton4.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton4.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton4.Text = "Mover último";
             // 
-            // bindingNavigatorSeparator2
+            // toolStripSeparator3
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 6);
+            this.toolStripSeparator3.Name = "bindingNavigatorSeparator";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 6);
             // 
-            // bindingNavigatorAddNewItem
+            // toolStripButton5
             // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorAddNewItem.Text = "Adicionar novo";
+            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
+            this.toolStripButton5.Name = "bindingNavigatorAddNewItem";
+            this.toolStripButton5.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton5.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton5.Text = "Adicionar novo";
             // 
-            // bindingNavigatorDeleteItem
+            // toolStripButton6
             // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 28);
-            this.bindingNavigatorDeleteItem.Text = "Excluir";
+            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
+            this.toolStripButton6.Name = "bindingNavigatorDeleteItem";
+            this.toolStripButton6.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton6.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton6.Text = "Excluir";
             // 
-            // pessoaBindingNavigatorSaveItem
+            // pessoaBindingSource1BindingNavigatorSaveItem
             // 
-            this.pessoaBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.pessoaBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("pessoaBindingNavigatorSaveItem.Image")));
-            this.pessoaBindingNavigatorSaveItem.Name = "pessoaBindingNavigatorSaveItem";
-            this.pessoaBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 23);
-            this.pessoaBindingNavigatorSaveItem.Text = "Salvar Dados";
-            this.pessoaBindingNavigatorSaveItem.Click += new System.EventHandler(this.pessoaBindingNavigatorSaveItem_Click);
+            this.pessoaBindingSource1BindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.pessoaBindingSource1BindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("pessoaBindingSource1BindingNavigatorSaveItem.Image")));
+            this.pessoaBindingSource1BindingNavigatorSaveItem.Name = "pessoaBindingSource1BindingNavigatorSaveItem";
+            this.pessoaBindingSource1BindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 23);
+            this.pessoaBindingSource1BindingNavigatorSaveItem.Text = "Salvar Dados";
+            this.pessoaBindingSource1BindingNavigatorSaveItem.Click += new System.EventHandler(this.pessoaBindingSource1BindingNavigatorSaveItem_Click);
             // 
             // idLabel
             // 
             idLabel.AutoSize = true;
-            idLabel.Location = new System.Drawing.Point(18, 49);
+            idLabel.Location = new System.Drawing.Point(63, 91);
             idLabel.Name = "idLabel";
             idLabel.Size = new System.Drawing.Size(25, 20);
             idLabel.TabIndex = 1;
             idLabel.Text = "id:";
             // 
-            // idTextBox
+            // idTextBox1
             // 
-            this.idTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.pessoaBindingSource, "id", true));
-            this.idTextBox.Location = new System.Drawing.Point(109, 46);
-            this.idTextBox.Name = "idTextBox";
-            this.idTextBox.Size = new System.Drawing.Size(40, 26);
-            this.idTextBox.TabIndex = 2;
+            this.idTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.pessoaBindingSource1, "id", true));
+            this.idTextBox1.Location = new System.Drawing.Point(154, 88);
+            this.idTextBox1.Name = "idTextBox1";
+            this.idTextBox1.Size = new System.Drawing.Size(200, 26);
+            this.idTextBox1.TabIndex = 2;
             // 
             // nomeLabel
             // 
             nomeLabel.AutoSize = true;
-            nomeLabel.Location = new System.Drawing.Point(18, 81);
+            nomeLabel.Location = new System.Drawing.Point(63, 123);
             nomeLabel.Name = "nomeLabel";
             nomeLabel.Size = new System.Drawing.Size(53, 20);
             nomeLabel.TabIndex = 3;
             nomeLabel.Text = "nome:";
             // 
-            // nomeTextBox
+            // nomeTextBox1
             // 
-            this.nomeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.pessoaBindingSource, "nome", true));
-            this.nomeTextBox.Location = new System.Drawing.Point(109, 78);
-            this.nomeTextBox.Name = "nomeTextBox";
-            this.nomeTextBox.Size = new System.Drawing.Size(200, 26);
-            this.nomeTextBox.TabIndex = 4;
+            this.nomeTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.pessoaBindingSource1, "nome", true));
+            this.nomeTextBox1.Location = new System.Drawing.Point(154, 120);
+            this.nomeTextBox1.Name = "nomeTextBox1";
+            this.nomeTextBox1.Size = new System.Drawing.Size(200, 26);
+            this.nomeTextBox1.TabIndex = 4;
             // 
             // enderecoLabel
             // 
             enderecoLabel.AutoSize = true;
-            enderecoLabel.Location = new System.Drawing.Point(18, 113);
+            enderecoLabel.Location = new System.Drawing.Point(63, 155);
             enderecoLabel.Name = "enderecoLabel";
             enderecoLabel.Size = new System.Drawing.Size(80, 20);
             enderecoLabel.TabIndex = 5;
             enderecoLabel.Text = "endereco:";
             // 
-            // enderecoTextBox
+            // enderecoTextBox1
             // 
-            this.enderecoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.pessoaBindingSource, "endereco", true));
-            this.enderecoTextBox.Location = new System.Drawing.Point(109, 110);
-            this.enderecoTextBox.Name = "enderecoTextBox";
-            this.enderecoTextBox.Size = new System.Drawing.Size(200, 26);
-            this.enderecoTextBox.TabIndex = 6;
+            this.enderecoTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.pessoaBindingSource1, "endereco", true));
+            this.enderecoTextBox1.Location = new System.Drawing.Point(154, 152);
+            this.enderecoTextBox1.Name = "enderecoTextBox1";
+            this.enderecoTextBox1.Size = new System.Drawing.Size(200, 26);
+            this.enderecoTextBox1.TabIndex = 6;
             // 
             // cidadeLabel
             // 
             cidadeLabel.AutoSize = true;
-            cidadeLabel.Location = new System.Drawing.Point(18, 145);
+            cidadeLabel.Location = new System.Drawing.Point(63, 187);
             cidadeLabel.Name = "cidadeLabel";
             cidadeLabel.Size = new System.Drawing.Size(60, 20);
             cidadeLabel.TabIndex = 7;
             cidadeLabel.Text = "cidade:";
             // 
-            // cidadeTextBox
+            // cidadeTextBox1
             // 
-            this.cidadeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.pessoaBindingSource, "cidade", true));
-            this.cidadeTextBox.Location = new System.Drawing.Point(109, 142);
-            this.cidadeTextBox.Name = "cidadeTextBox";
-            this.cidadeTextBox.Size = new System.Drawing.Size(200, 26);
-            this.cidadeTextBox.TabIndex = 8;
+            this.cidadeTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.pessoaBindingSource1, "cidade", true));
+            this.cidadeTextBox1.Location = new System.Drawing.Point(154, 184);
+            this.cidadeTextBox1.Name = "cidadeTextBox1";
+            this.cidadeTextBox1.Size = new System.Drawing.Size(200, 26);
+            this.cidadeTextBox1.TabIndex = 8;
             // 
             // emailLabel
             // 
             emailLabel.AutoSize = true;
-            emailLabel.Location = new System.Drawing.Point(18, 177);
+            emailLabel.Location = new System.Drawing.Point(63, 219);
             emailLabel.Name = "emailLabel";
             emailLabel.Size = new System.Drawing.Size(50, 20);
             emailLabel.TabIndex = 9;
             emailLabel.Text = "email:";
             // 
-            // emailTextBox
+            // emailTextBox1
             // 
-            this.emailTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.pessoaBindingSource, "email", true));
-            this.emailTextBox.Location = new System.Drawing.Point(109, 174);
-            this.emailTextBox.Name = "emailTextBox";
-            this.emailTextBox.Size = new System.Drawing.Size(200, 26);
-            this.emailTextBox.TabIndex = 10;
+            this.emailTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.pessoaBindingSource1, "email", true));
+            this.emailTextBox1.Location = new System.Drawing.Point(154, 216);
+            this.emailTextBox1.Name = "emailTextBox1";
+            this.emailTextBox1.Size = new System.Drawing.Size(200, 26);
+            this.emailTextBox1.TabIndex = 10;
             // 
             // dataNascLabel
             // 
             dataNascLabel.AutoSize = true;
-            dataNascLabel.Location = new System.Drawing.Point(18, 210);
+            dataNascLabel.Location = new System.Drawing.Point(63, 252);
             dataNascLabel.Name = "dataNascLabel";
             dataNascLabel.Size = new System.Drawing.Size(85, 20);
             dataNascLabel.TabIndex = 11;
             dataNascLabel.Text = "data Nasc:";
             // 
-            // dataNascDateTimePicker
+            // dataNascDateTimePicker1
             // 
-            this.dataNascDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.pessoaBindingSource, "dataNasc", true));
-            this.dataNascDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dataNascDateTimePicker.Location = new System.Drawing.Point(109, 206);
-            this.dataNascDateTimePicker.Name = "dataNascDateTimePicker";
-            this.dataNascDateTimePicker.Size = new System.Drawing.Size(136, 26);
-            this.dataNascDateTimePicker.TabIndex = 12;
+            this.dataNascDateTimePicker1.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.pessoaBindingSource1, "dataNasc", true));
+            this.dataNascDateTimePicker1.Location = new System.Drawing.Point(154, 248);
+            this.dataNascDateTimePicker1.Name = "dataNascDateTimePicker1";
+            this.dataNascDateTimePicker1.Size = new System.Drawing.Size(200, 26);
+            this.dataNascDateTimePicker1.TabIndex = 12;
             // 
-            // pessoaDataGridView
+            // pessoaDataGridView1
             // 
-            this.pessoaDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pessoaDataGridView.AutoGenerateColumns = false;
-            this.pessoaDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.pessoaDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.pessoaDataGridView1.AutoGenerateColumns = false;
+            this.pessoaDataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.pessoaDataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
-            this.pessoaDataGridView.DataSource = this.pessoaBindingSource;
-            this.pessoaDataGridView.Location = new System.Drawing.Point(12, 248);
-            this.pessoaDataGridView.Name = "pessoaDataGridView";
-            this.pessoaDataGridView.RowHeadersWidth = 62;
-            this.pessoaDataGridView.RowTemplate.Height = 28;
-            this.pessoaDataGridView.Size = new System.Drawing.Size(794, 378);
-            this.pessoaDataGridView.TabIndex = 13;
+            this.pessoaDataGridView1.DataSource = this.pessoaBindingSource1;
+            this.pessoaDataGridView1.Location = new System.Drawing.Point(21, 305);
+            this.pessoaDataGridView1.Name = "pessoaDataGridView1";
+            this.pessoaDataGridView1.RowHeadersWidth = 62;
+            this.pessoaDataGridView1.RowTemplate.Height = 28;
+            this.pessoaDataGridView1.Size = new System.Drawing.Size(795, 300);
+            this.pessoaDataGridView1.TabIndex = 13;
             // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.DataPropertyName = "id";
-            this.dataGridViewTextBoxColumn1.HeaderText = "codigo";
+            this.dataGridViewTextBoxColumn1.HeaderText = "id";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 60;
+            this.dataGridViewTextBoxColumn1.Width = 150;
             // 
             // dataGridViewTextBoxColumn2
             // 
@@ -369,7 +365,7 @@
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "endereco";
-            this.dataGridViewTextBoxColumn3.HeaderText = "endereço";
+            this.dataGridViewTextBoxColumn3.HeaderText = "endereco";
             this.dataGridViewTextBoxColumn3.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.Width = 150;
@@ -380,7 +376,7 @@
             this.dataGridViewTextBoxColumn4.HeaderText = "cidade";
             this.dataGridViewTextBoxColumn4.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 120;
+            this.dataGridViewTextBoxColumn4.Width = 150;
             // 
             // dataGridViewTextBoxColumn5
             // 
@@ -393,39 +389,36 @@
             // dataGridViewTextBoxColumn6
             // 
             this.dataGridViewTextBoxColumn6.DataPropertyName = "dataNasc";
-            this.dataGridViewTextBoxColumn6.HeaderText = "Data de Nascimento";
+            this.dataGridViewTextBoxColumn6.HeaderText = "dataNasc";
             this.dataGridViewTextBoxColumn6.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.Width = 150;
             // 
             // FormCadPessoas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(999, 638);
-            this.Controls.Add(this.pessoaDataGridView);
+            this.ClientSize = new System.Drawing.Size(828, 617);
+            this.Controls.Add(this.pessoaDataGridView1);
             this.Controls.Add(idLabel);
-            this.Controls.Add(this.idTextBox);
+            this.Controls.Add(this.idTextBox1);
             this.Controls.Add(nomeLabel);
-            this.Controls.Add(this.nomeTextBox);
+            this.Controls.Add(this.nomeTextBox1);
             this.Controls.Add(enderecoLabel);
-            this.Controls.Add(this.enderecoTextBox);
+            this.Controls.Add(this.enderecoTextBox1);
             this.Controls.Add(cidadeLabel);
-            this.Controls.Add(this.cidadeTextBox);
+            this.Controls.Add(this.cidadeTextBox1);
             this.Controls.Add(emailLabel);
-            this.Controls.Add(this.emailTextBox);
+            this.Controls.Add(this.emailTextBox1);
             this.Controls.Add(dataNascLabel);
-            this.Controls.Add(this.dataNascDateTimePicker);
-            this.Controls.Add(this.pessoaBindingNavigator);
+            this.Controls.Add(this.dataNascDateTimePicker1);
+            this.Controls.Add(this.pessoaBindingSource1BindingNavigator);
             this.Name = "FormCadPessoas";
-            this.Text = "Cadastro de Pessoas";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.FormCadPessoas_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataSet_Agenda)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingNavigator)).EndInit();
-            this.pessoaBindingNavigator.ResumeLayout(false);
-            this.pessoaBindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pessoaDataGridView)).EndInit();
+            this.Load += new System.EventHandler(this.FormCadPessoas_Load_1);
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingSource1BindingNavigator)).EndInit();
+            this.pessoaBindingSource1BindingNavigator.ResumeLayout(false);
+            this.pessoaBindingSource1BindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pessoaDataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -457,6 +450,36 @@
         private System.Windows.Forms.TextBox emailTextBox;
         private System.Windows.Forms.DateTimePicker dataNascDateTimePicker;
         private System.Windows.Forms.DataGridView pessoaDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn enderecoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cidadeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataNascDataGridViewTextBoxColumn;
+        private Dados.DataSet1 dataSet1;
+        private System.Windows.Forms.BindingSource pessoaBindingSource1;
+        private Dados.DataSet1TableAdapters.pessoaTableAdapter pessoaTableAdapter1;
+        private Dados.DataSet1TableAdapters.TableAdapterManager tableAdapterManager1;
+        private System.Windows.Forms.BindingNavigator pessoaBindingSource1BindingNavigator;
+        private System.Windows.Forms.ToolStripButton toolStripButton5;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
+        private System.Windows.Forms.ToolStripButton toolStripButton6;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton toolStripButton2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.ToolStripButton toolStripButton4;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripButton pessoaBindingSource1BindingNavigatorSaveItem;
+        private System.Windows.Forms.TextBox idTextBox1;
+        private System.Windows.Forms.TextBox nomeTextBox1;
+        private System.Windows.Forms.TextBox enderecoTextBox1;
+        private System.Windows.Forms.TextBox cidadeTextBox1;
+        private System.Windows.Forms.TextBox emailTextBox1;
+        private System.Windows.Forms.DateTimePicker dataNascDateTimePicker1;
+        private System.Windows.Forms.DataGridView pessoaDataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
